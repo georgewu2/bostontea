@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A304D403167460E90069C8E2 /* bluePin.png in Resources */ = {isa = PBXBuildFile; fileRef = A304D400167460E90069C8E2 /* bluePin.png */; };
+		A304D404167460E90069C8E2 /* orangePin.png in Resources */ = {isa = PBXBuildFile; fileRef = A304D401167460E90069C8E2 /* orangePin.png */; };
+		A304D405167460E90069C8E2 /* redPin.png in Resources */ = {isa = PBXBuildFile; fileRef = A304D402167460E90069C8E2 /* redPin.png */; };
+		A304D4081674AE2A0069C8E2 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = A304D4071674AE2A0069C8E2 /* Annotation.m */; };
+		A30CA1C116AC4AC000FE9FF0 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1C016AC4AC000FE9FF0 /* GoogleMaps.framework */; };
+		A30CA1C416AC4BDC00FE9FF0 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A30CA1C316AC4BDC00FE9FF0 /* GoogleMaps.bundle */; };
+		A30CA1C616AC4BFD00FE9FF0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1C516AC4BFD00FE9FF0 /* AVFoundation.framework */; };
+		A30CA1C816AC4C0500FE9FF0 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1C716AC4C0500FE9FF0 /* CoreData.framework */; };
+		A30CA1CA16AC4C0C00FE9FF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1C916AC4C0C00FE9FF0 /* CoreLocation.framework */; };
+		A30CA1CC16AC4C1600FE9FF0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1CB16AC4C1600FE9FF0 /* CoreText.framework */; };
+		A30CA1CE16AC4C1D00FE9FF0 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1CD16AC4C1D00FE9FF0 /* GLKit.framework */; };
+		A30CA1D016AC4C2600FE9FF0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1CF16AC4C2600FE9FF0 /* ImageIO.framework */; };
+		A30CA1D216AC4C4400FE9FF0 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1D116AC4C4400FE9FF0 /* libicucore.dylib */; };
+		A30CA1D416AC4C6B00FE9FF0 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1D316AC4C6B00FE9FF0 /* libstdc++.dylib */; };
+		A30CA1D616AC4C8300FE9FF0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1D516AC4C8300FE9FF0 /* libz.dylib */; };
+		A30CA1D816AC4C9300FE9FF0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1D716AC4C9300FE9FF0 /* OpenGLES.framework */; };
+		A30CA1DA16AC4C9B00FE9FF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1D916AC4C9B00FE9FF0 /* QuartzCore.framework */; };
+		A30CA1DC16AC4CA300FE9FF0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30CA1DB16AC4CA300FE9FF0 /* SystemConfiguration.framework */; };
+		A31D03DD16AC6C7B0096F645 /* SingleLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31D03DC16AC6C7B0096F645 /* SingleLineViewController.m */; };
+		A31D03E116AC85D40096F645 /* RedStations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A31D03E016AC85D40096F645 /* RedStations.plist */; };
+		A31D03E316AC93230096F645 /* red.plist in Resources */ = {isa = PBXBuildFile; fileRef = A31D03E216AC93230096F645 /* red.plist */; };
+		A31D03E516ACA2EA0096F645 /* orange.plist in Resources */ = {isa = PBXBuildFile; fileRef = A31D03E416ACA2EA0096F645 /* orange.plist */; };
+		A31D03E716ACA2F20096F645 /* blue.plist in Resources */ = {isa = PBXBuildFile; fileRef = A31D03E616ACA2F20096F645 /* blue.plist */; };
+		A31D03E916ACE9290096F645 /* route.m in Sources */ = {isa = PBXBuildFile; fileRef = A31D03E816ACE9290096F645 /* route.m */; };
+		A326F93816ADE2FE00862FDB /* TripPlannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A326F93716ADE2FE00862FDB /* TripPlannerViewController.m */; };
+		A328448216AE3D43004C160C /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = A328448116AE3D43004C160C /* dropdown.png */; };
+		A39912A116719D7A0074093D /* RedMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39912A016719D7A0074093D /* RedMapViewController.m */; };
+		A399D8F81673115A0015B676 /* OrangeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A399D8F71673115A0015B676 /* OrangeMapViewController.m */; };
+		A399D8FB167311670015B676 /* BlueMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A399D8FA167311670015B676 /* BlueMapViewController.m */; };
+		A399D8FE167339F10015B676 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = A399D8FD167339F10015B676 /* Search.m */; };
+		A39FCA751669B714002DDDB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FCA741669B714002DDDB7 /* UIKit.framework */; };
+		A39FCA771669B714002DDDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FCA761669B714002DDDB7 /* Foundation.framework */; };
+		A39FCA791669B714002DDDB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FCA781669B714002DDDB7 /* CoreGraphics.framework */; };
+		A39FCA7F1669B714002DDDB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39FCA7D1669B714002DDDB7 /* InfoPlist.strings */; };
+		A39FCA811669B714002DDDB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FCA801669B714002DDDB7 /* main.m */; };
+		A39FCA851669B714002DDDB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FCA841669B714002DDDB7 /* AppDelegate.m */; };
+		A39FCA871669B714002DDDB7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A39FCA861669B714002DDDB7 /* Default.png */; };
+		A39FCA891669B714002DDDB7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A39FCA881669B714002DDDB7 /* Default@2x.png */; };
+		A39FCA8E1669B715002DDDB7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39FCA8C1669B715002DDDB7 /* MainStoryboard.storyboard */; };
+		A3B7F05016F95B200091F2FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B7F04F16F95B200091F2FA /* Default@2x.png */; };
+		A3B94C3216B214C700B1B1C9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B94C3116B214C700B1B1C9 /* Icon@2x.png */; };
+		A3B94C3416B216AA00B1B1C9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B94C3316B216AA00B1B1C9 /* Icon.png */; };
+		A3B94C3616B216FD00B1B1C9 /* TripPlanner.png in Resources */ = {isa = PBXBuildFile; fileRef = A3B94C3516B216FD00B1B1C9 /* TripPlanner.png */; };
+		A3CF56D71670487D00850881 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3CF56D61670487D00850881 /* MapKit.framework */; };
+		A3CF56DB16705DDE00850881 /* TrainLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CF56DA16705DDE00850881 /* TrainLineViewController.m */; };
+		A3D252C016AF3C8500D0DB3F /* BackgroundOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252BD16AF3C8500D0DB3F /* BackgroundOrange.png */; };
+		A3D252C316AF409500D0DB3F /* round button.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252C216AF409500D0DB3F /* round button.png */; };
+		A3D252C716AF49B400D0DB3F /* BackgroundRed.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252C616AF49B400D0DB3F /* BackgroundRed.png */; };
+		A3D252CC16AF926C00D0DB3F /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D252CB16AF926C00D0DB3F /* ResultsViewController.m */; };
+		A3D252CE16B07E0900D0DB3F /* MainScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252CD16B07E0900D0DB3F /* MainScreen.png */; };
+		A3D252D016B0813500D0DB3F /* round button2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252CF16B0813500D0DB3F /* round button2.png */; };
+		A3D252D216B0835300D0DB3F /* BackgroundBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D252D116B0835200D0DB3F /* BackgroundBlue.png */; };
+		A3D252D416B1A89500D0DB3F /* green.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D252D316B1A89500D0DB3F /* green.plist */; };
+		A3D252D616B1B0FE00D0DB3F /* silver.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3D252D516B1B0FE00D0DB3F /* silver.plist */; };
+		A3D9432216B39AF6007981CB /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D9432116B39AF6007981CB /* AlertViewController.m */; };
+		A3D9432816B3B669007981CB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D9432716B3B669007981CB /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A304D400167460E90069C8E2 /* bluePin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluePin.png; sourceTree = "<group>"; };
+		A304D401167460E90069C8E2 /* orangePin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangePin.png; sourceTree = "<group>"; };
+		A304D402167460E90069C8E2 /* redPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redPin.png; sourceTree = "<group>"; };
+		A304D4061674AE2A0069C8E2 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		A304D4071674AE2A0069C8E2 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		A30CA1C016AC4AC000FE9FF0 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		A30CA1C316AC4BDC00FE9FF0 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "GoogleMaps-1.0.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		A30CA1C516AC4BFD00FE9FF0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A30CA1C716AC4C0500FE9FF0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A30CA1C916AC4C0C00FE9FF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A30CA1CB16AC4C1600FE9FF0 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A30CA1CD16AC4C1D00FE9FF0 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A30CA1CF16AC4C2600FE9FF0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A30CA1D116AC4C4400FE9FF0 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		A30CA1D316AC4C6B00FE9FF0 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		A30CA1D516AC4C8300FE9FF0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A30CA1D716AC4C9300FE9FF0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A30CA1D916AC4C9B00FE9FF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A30CA1DB16AC4CA300FE9FF0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A31D03DB16AC6C7B0096F645 /* SingleLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleLineViewController.h; sourceTree = "<group>"; };
+		A31D03DC16AC6C7B0096F645 /* SingleLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleLineViewController.m; sourceTree = "<group>"; };
+		A31D03E016AC85D40096F645 /* RedStations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RedStations.plist; sourceTree = "<group>"; };
+		A31D03E216AC93230096F645 /* red.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = red.plist; sourceTree = "<group>"; };
+		A31D03E416ACA2EA0096F645 /* orange.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = orange.plist; sourceTree = "<group>"; };
+		A31D03E616ACA2F20096F645 /* blue.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = blue.plist; sourceTree = "<group>"; };
+		A31D03E816ACE9290096F645 /* route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = route.m; sourceTree = "<group>"; };
+		A31D03EA16ACE92F0096F645 /* route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		A326F93616ADE2FE00862FDB /* TripPlannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripPlannerViewController.h; sourceTree = "<group>"; };
+		A326F93716ADE2FE00862FDB /* TripPlannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripPlannerViewController.m; sourceTree = "<group>"; };
+		A328448116AE3D43004C160C /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
+		A399129F16719D7A0074093D /* RedMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedMapViewController.h; sourceTree = "<group>"; };
+		A39912A016719D7A0074093D /* RedMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedMapViewController.m; sourceTree = "<group>"; };
+		A399D8F61673115A0015B676 /* OrangeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrangeMapViewController.h; sourceTree = "<group>"; };
+		A399D8F71673115A0015B676 /* OrangeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrangeMapViewController.m; sourceTree = "<group>"; };
+		A399D8F9167311670015B676 /* BlueMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueMapViewController.h; sourceTree = "<group>"; };
+		A399D8FA167311670015B676 /* BlueMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueMapViewController.m; sourceTree = "<group>"; };
+		A399D8FC167339F10015B676 /* Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search.h; sourceTree = "<group>"; };
+		A399D8FD167339F10015B676 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
+		A39FCA701669B714002DDDB7 /* Where's My T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Where's My T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39FCA741669B714002DDDB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A39FCA761669B714002DDDB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A39FCA781669B714002DDDB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A39FCA7C1669B714002DDDB7 /* Where's My T-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Where's My T-Info.plist"; sourceTree = "<group>"; };
+		A39FCA7E1669B714002DDDB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39FCA801669B714002DDDB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39FCA821669B714002DDDB7 /* Where's My T-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Where's My T-Prefix.pch"; sourceTree = "<group>"; };
+		A39FCA831669B714002DDDB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39FCA841669B714002DDDB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39FCA861669B714002DDDB7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A39FCA881669B714002DDDB7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A39FCA8D1669B715002DDDB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3B7F04F16F95B200091F2FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3B7F05116F964E30091F2FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A3B94C3116B214C700B1B1C9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A3B94C3316B216AA00B1B1C9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A3B94C3516B216FD00B1B1C9 /* TripPlanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TripPlanner.png; sourceTree = "<group>"; };
+		A3CF56D61670487D00850881 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A3CF56D916705DDE00850881 /* TrainLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainLineViewController.h; sourceTree = "<group>"; };
+		A3CF56DA16705DDE00850881 /* TrainLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainLineViewController.m; sourceTree = "<group>"; };
+		A3D252BD16AF3C8500D0DB3F /* BackgroundOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundOrange.png; sourceTree = "<group>"; };
+		A3D252C216AF409500D0DB3F /* round button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round button.png"; sourceTree = "<group>"; };
+		A3D252C616AF49B400D0DB3F /* BackgroundRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundRed.png; sourceTree = "<group>"; };
+		A3D252CA16AF926C00D0DB3F /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		A3D252CB16AF926C00D0DB3F /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		A3D252CD16B07E0900D0DB3F /* MainScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreen.png; sourceTree = "<group>"; };
+		A3D252CF16B0813500D0DB3F /* round button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round button2.png"; sourceTree = "<group>"; };
+		A3D252D116B0835200D0DB3F /* BackgroundBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundBlue.png; sourceTree = "<group>"; };
+		A3D252D316B1A89500D0DB3F /* green.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = green.plist; sourceTree = "<group>"; };
+		A3D252D516B1B0FE00D0DB3F /* silver.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = silver.plist; sourceTree = "<group>"; };
+		A3D9432016B39AF6007981CB /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		A3D9432116B39AF6007981CB /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		A3D9432616B3B669007981CB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A3D9432716B3B669007981CB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39FCA6D1669B714002DDDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30CA1DC16AC4CA300FE9FF0 /* SystemConfiguration.framework in Frameworks */,
+				A30CA1DA16AC4C9B00FE9FF0 /* QuartzCore.framework in Frameworks */,
+				A30CA1D816AC4C9300FE9FF0 /* OpenGLES.framework in Frameworks */,
+				A30CA1D616AC4C8300FE9FF0 /* libz.dylib in Frameworks */,
+				A30CA1D416AC4C6B00FE9FF0 /* libstdc++.dylib in Frameworks */,
+				A30CA1D216AC4C4400FE9FF0 /* libicucore.dylib in Frameworks */,
+				A30CA1D016AC4C2600FE9FF0 /* ImageIO.framework in Frameworks */,
+				A30CA1CE16AC4C1D00FE9FF0 /* GLKit.framework in Frameworks */,
+				A30CA1CC16AC4C1600FE9FF0 /* CoreText.framework in Frameworks */,
+				A30CA1CA16AC4C0C00FE9FF0 /* CoreLocation.framework in Frameworks */,
+				A30CA1C816AC4C0500FE9FF0 /* CoreData.framework in Frameworks */,
+				A30CA1C616AC4BFD00FE9FF0 /* AVFoundation.framework in Frameworks */,
+				A39FCA751669B714002DDDB7 /* UIKit.framework in Frameworks */,
+				A39FCA771669B714002DDDB7 /* Foundation.framework in Frameworks */,
+				A39FCA791669B714002DDDB7 /* CoreGraphics.framework in Frameworks */,
+				A3CF56D71670487D00850881 /* MapKit.framework in Frameworks */,
+				A30CA1C116AC4AC000FE9FF0 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30CA1BF16AC4AC000FE9FF0 /* GoogleMaps-1.0.1 */ = {
+			isa = PBXGroup;
+			children = (
+				A30CA1C016AC4AC000FE9FF0 /* GoogleMaps.framework */,
+			);
+			path = "GoogleMaps-1.0.1";
+			sourceTree = "<group>";
+		};
+		A39FCA651669B714002DDDB7 = {
+			isa = PBXGroup;
+			children = (
+				A3B7F05116F964E30091F2FA /* Default-568h@2x.png */,
+				A3B7F04F16F95B200091F2FA /* Default@2x.png */,
+				A3B94C3116B214C700B1B1C9 /* Icon@2x.png */,
+				A3B94C3316B216AA00B1B1C9 /* Icon.png */,
+				A30CA1DB16AC4CA300FE9FF0 /* SystemConfiguration.framework */,
+				A30CA1D916AC4C9B00FE9FF0 /* QuartzCore.framework */,
+				A30CA1D716AC4C9300FE9FF0 /* OpenGLES.framework */,
+				A30CA1D516AC4C8300FE9FF0 /* libz.dylib */,
+				A30CA1D316AC4C6B00FE9FF0 /* libstdc++.dylib */,
+				A30CA1D116AC4C4400FE9FF0 /* libicucore.dylib */,
+				A30CA1CF16AC4C2600FE9FF0 /* ImageIO.framework */,
+				A30CA1CD16AC4C1D00FE9FF0 /* GLKit.framework */,
+				A30CA1CB16AC4C1600FE9FF0 /* CoreText.framework */,
+				A30CA1C916AC4C0C00FE9FF0 /* CoreLocation.framework */,
+				A30CA1C716AC4C0500FE9FF0 /* CoreData.framework */,
+				A30CA1C516AC4BFD00FE9FF0 /* AVFoundation.framework */,
+				A39FCA7A1669B714002DDDB7 /* Where's My T? */,
+				A39FCA731669B714002DDDB7 /* Frameworks */,
+				A39FCA711669B714002DDDB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39FCA711669B714002DDDB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39FCA701669B714002DDDB7 /* Where's My T.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39FCA731669B714002DDDB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A30CA1C316AC4BDC00FE9FF0 /* GoogleMaps.bundle */,
+				A30CA1BF16AC4AC000FE9FF0 /* GoogleMaps-1.0.1 */,
+				A3CF56D61670487D00850881 /* MapKit.framework */,
+				A39FCA741669B714002DDDB7 /* UIKit.framework */,
+				A39FCA761669B714002DDDB7 /* Foundation.framework */,
+				A39FCA781669B714002DDDB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39FCA7A1669B714002DDDB7 /* Where's My T? */ = {
+			isa = PBXGroup;
+			children = (
+				A39FCA831669B714002DDDB7 /* AppDelegate.h */,
+				A39FCA841669B714002DDDB7 /* AppDelegate.m */,
+				A399D8FC167339F10015B676 /* Search.h */,
+				A399D8FD167339F10015B676 /* Search.m */,
+				A31D03EA16ACE92F0096F645 /* route.h */,
+				A31D03E816ACE9290096F645 /* route.m */,
+				A39FCA8C1669B715002DDDB7 /* MainStoryboard.storyboard */,
+				A3CF56D916705DDE00850881 /* TrainLineViewController.h */,
+				A3CF56DA16705DDE00850881 /* TrainLineViewController.m */,
+				A31D03DB16AC6C7B0096F645 /* SingleLineViewController.h */,
+				A31D03DC16AC6C7B0096F645 /* SingleLineViewController.m */,
+				A3D252CA16AF926C00D0DB3F /* ResultsViewController.h */,
+				A3D252CB16AF926C00D0DB3F /* ResultsViewController.m */,
+				A399129F16719D7A0074093D /* RedMapViewController.h */,
+				A39912A016719D7A0074093D /* RedMapViewController.m */,
+				A399D8F61673115A0015B676 /* OrangeMapViewController.h */,
+				A399D8F71673115A0015B676 /* OrangeMapViewController.m */,
+				A399D8F9167311670015B676 /* BlueMapViewController.h */,
+				A399D8FA167311670015B676 /* BlueMapViewController.m */,
+				A326F93616ADE2FE00862FDB /* TripPlannerViewController.h */,
+				A326F93716ADE2FE00862FDB /* TripPlannerViewController.m */,
+				A3D9432016B39AF6007981CB /* AlertViewController.h */,
+				A3D9432116B39AF6007981CB /* AlertViewController.m */,
+				A3D9432616B3B669007981CB /* DetailViewController.h */,
+				A3D9432716B3B669007981CB /* DetailViewController.m */,
+				A304D4061674AE2A0069C8E2 /* Annotation.h */,
+				A304D4071674AE2A0069C8E2 /* Annotation.m */,
+				A3D252CD16B07E0900D0DB3F /* MainScreen.png */,
+				A304D400167460E90069C8E2 /* bluePin.png */,
+				A304D401167460E90069C8E2 /* orangePin.png */,
+				A304D402167460E90069C8E2 /* redPin.png */,
+				A3D252C216AF409500D0DB3F /* round button.png */,
+				A3D252CF16B0813500D0DB3F /* round button2.png */,
+				A3D252C616AF49B400D0DB3F /* BackgroundRed.png */,
+				A3D252D116B0835200D0DB3F /* BackgroundBlue.png */,
+				A3D252BD16AF3C8500D0DB3F /* BackgroundOrange.png */,
+				A3B94C3516B216FD00B1B1C9 /* TripPlanner.png */,
+				A328448116AE3D43004C160C /* dropdown.png */,
+				A39FCA7B1669B714002DDDB7 /* Supporting Files */,
+			);
+			path = "Where's My T?";
+			sourceTree = "<group>";
+		};
+		A39FCA7B1669B714002DDDB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39FCA7C1669B714002DDDB7 /* Where's My T-Info.plist */,
+				A39FCA7D1669B714002DDDB7 /* InfoPlist.strings */,
+				A39FCA801669B714002DDDB7 /* main.m */,
+				A39FCA821669B714002DDDB7 /* Where's My T-Prefix.pch */,
+				A39FCA861669B714002DDDB7 /* Default.png */,
+				A39FCA881669B714002DDDB7 /* Default@2x.png */,
+				A31D03E016AC85D40096F645 /* RedStations.plist */,
+				A31D03E216AC93230096F645 /* red.plist */,
+				A31D03E416ACA2EA0096F645 /* orange.plist */,
+				A31D03E616ACA2F20096F645 /* blue.plist */,
+				A3D252D316B1A89500D0DB3F /* green.plist */,
+				A3D252D516B1B0FE00D0DB3F /* silver.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39FCA6F1669B714002DDDB7 /* Where's My T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39FCA9F1669B715002DDDB7 /* Build configuration list for PBXNativeTarget "Where's My T" */;
+			buildPhases = (
+				A39FCA6C1669B714002DDDB7 /* Sources */,
+				A39FCA6D1669B714002DDDB7 /* Frameworks */,
+				A39FCA6E1669B714002DDDB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Where's My T";
+			productName = "Where's My T?";
+			productReference = A39FCA701669B714002DDDB7 /* Where's My T.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39FCA671669B714002DDDB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "George Wu";
+			};
+			buildConfigurationList = A39FCA6A1669B714002DDDB7 /* Build configuration list for PBXProject "Where's My T" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A39FCA651669B714002DDDB7;
+			productRefGroup = A39FCA711669B714002DDDB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39FCA6F1669B714002DDDB7 /* Where's My T */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39FCA6E1669B714002DDDB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FCA7F1669B714002DDDB7 /* InfoPlist.strings in Resources */,
+				A39FCA871669B714002DDDB7 /* Default.png in Resources */,
+				A39FCA891669B714002DDDB7 /* Default@2x.png in Resources */,
+				A39FCA8E1669B715002DDDB7 /* MainStoryboard.storyboard in Resources */,
+				A304D403167460E90069C8E2 /* bluePin.png in Resources */,
+				A304D404167460E90069C8E2 /* orangePin.png in Resources */,
+				A304D405167460E90069C8E2 /* redPin.png in Resources */,
+				A30CA1C416AC4BDC00FE9FF0 /* GoogleMaps.bundle in Resources */,
+				A31D03E116AC85D40096F645 /* RedStations.plist in Resources */,
+				A31D03E316AC93230096F645 /* red.plist in Resources */,
+				A31D03E516ACA2EA0096F645 /* orange.plist in Resources */,
+				A31D03E716ACA2F20096F645 /* blue.plist in Resources */,
+				A328448216AE3D43004C160C /* dropdown.png in Resources */,
+				A3D252C016AF3C8500D0DB3F /* BackgroundOrange.png in Resources */,
+				A3D252C316AF409500D0DB3F /* round button.png in Resources */,
+				A3D252C716AF49B400D0DB3F /* BackgroundRed.png in Resources */,
+				A3D252CE16B07E0900D0DB3F /* MainScreen.png in Resources */,
+				A3D252D016B0813500D0DB3F /* round button2.png in Resources */,
+				A3D252D216B0835300D0DB3F /* BackgroundBlue.png in Resources */,
+				A3D252D416B1A89500D0DB3F /* green.plist in Resources */,
+				A3D252D616B1B0FE00D0DB3F /* silver.plist in Resources */,
+				A3B94C3216B214C700B1B1C9 /* Icon@2x.png in Resources */,
+				A3B94C3416B216AA00B1B1C9 /* Icon.png in Resources */,
+				A3B94C3616B216FD00B1B1C9 /* TripPlanner.png in Resources */,
+				A3B7F05016F95B200091F2FA /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39FCA6C1669B714002DDDB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FCA811669B714002DDDB7 /* main.m in Sources */,
+				A39FCA851669B714002DDDB7 /* AppDelegate.m in Sources */,
+				A3CF56DB16705DDE00850881 /* TrainLineViewController.m in Sources */,
+				A39912A116719D7A0074093D /* RedMapViewController.m in Sources */,
+				A399D8F81673115A0015B676 /* OrangeMapViewController.m in Sources */,
+				A399D8FB167311670015B676 /* BlueMapViewController.m in Sources */,
+				A399D8FE167339F10015B676 /* Search.m in Sources */,
+				A304D4081674AE2A0069C8E2 /* Annotation.m in Sources */,
+				A31D03DD16AC6C7B0096F645 /* SingleLineViewController.m in Sources */,
+				A31D03E916ACE9290096F645 /* route.m in Sources */,
+				A326F93816ADE2FE00862FDB /* TripPlannerViewController.m in Sources */,
+				A3D252CC16AF926C00D0DB3F /* ResultsViewController.m in Sources */,
+				A3D9432216B39AF6007981CB /* AlertViewController.m in Sources */,
+				A3D9432816B3B669007981CB /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A39FCA7D1669B714002DDDB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39FCA7E1669B714002DDDB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A39FCA8C1669B715002DDDB7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39FCA8D1669B715002DDDB7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39FCA9D1669B715002DDDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39FCA9E1669B715002DDDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39FCAA01669B715002DDDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Wu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GoogleMaps-1.0.1\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where's My T?/Where's My T-Prefix.pch";
+				INFOPLIST_FILE = "Where's My T?/Where's My T-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Where's My T";
+				PROVISIONING_PROFILE = "AF137F4C-3D92-4A21-B372-10CF7D5A19D5";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A39FCAA11669B715002DDDB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: George Wu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/GoogleMaps-1.0.1\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Where's My T?/Where's My T-Prefix.pch";
+				INFOPLIST_FILE = "Where's My T?/Where's My T-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "Where's My T";
+				PROVISIONING_PROFILE = "AF137F4C-3D92-4A21-B372-10CF7D5A19D5";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39FCA6A1669B714002DDDB7 /* Build configuration list for PBXProject "Where's My T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39FCA9D1669B715002DDDB7 /* Debug */,
+				A39FCA9E1669B715002DDDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39FCA9F1669B715002DDDB7 /* Build configuration list for PBXNativeTarget "Where's My T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39FCAA01669B715002DDDB7 /* Debug */,
+				A39FCAA11669B715002DDDB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39FCA671669B714002DDDB7 /* Project object */;
+}

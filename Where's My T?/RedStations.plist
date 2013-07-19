@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alewife</key>
+	<dict>
+		<key>latitude</key>
+		<real>42.396147</real>
+		<key>longitude</key>
+		<real>-71.14209099999999</real>
+	</dict>
+	<key>davis</key>
+	<dict/>
+	<key>porter</key>
+	<dict/>
+	<key>harvard</key>
+	<dict/>
+	<key>central</key>
+	<dict/>
+	<key>kendall</key>
+	<dict/>
+	<key>charles</key>
+	<dict/>
+	<key>park</key>
+	<dict/>
+	<key>downtown</key>
+	<dict/>
+	<key>south</key>
+	<dict/>
+	<key>broadway</key>
+	<dict/>
+	<key>andrew</key>
+	<dict/>
+	<key>jfk</key>
+	<dict/>
+	<key>northQuincy</key>
+	<dict/>
+	<key>wollaston</key>
+	<dict/>
+	<key>quincyCenter</key>
+	<dict/>
+	<key>quincyAdams</key>
+	<dict/>
+	<key>braintree</key>
+	<dict/>
+	<key>savin</key>
+	<dict/>
+	<key>fields</key>
+	<dict/>
+	<key>shawmut</key>
+	<dict/>
+	<key>ashmont</key>
+	<dict/>
+</dict>
+</plist>

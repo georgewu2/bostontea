@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Alewife</string>
+	<string>Davis</string>
+	<string>Porter Square</string>
+	<string>Harvard Square</string>
+	<string>Central Square</string>
+	<string>Kendall/MIT</string>
+	<string>Charles/MGH</string>
+	<string>Park Street</string>
+	<string>Downtown Crossing</string>
+	<string>South Station</string>
+	<string>Broadway</string>
+	<string>Andrew</string>
+	<string>JFK/UMass</string>
+	<string>North Quincy</string>
+	<string>Wollaston</string>
+	<string>Quincy Center</string>
+	<string>Quincy Adams</string>
+	<string>Braintree</string>
+	<string>Savin Hill</string>
+	<string>Fields Corner</string>
+	<string>Shawmut</string>
+	<string>Ashmont</string>
+</array>
+</plist>

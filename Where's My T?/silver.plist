@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>21 Dry Dock Avenue</string>
+	<string>25 Dry Dock Avenue</string>
+	<string>88 Black Falcon Avenue</string>
+	<string>306 Northern Avenue</string>
+	<string>Courthouse </string>
+	<string>Design Center</string>
+	<string>Dudley Square </string>
+	<string>East Berkeley St </string>
+	<string>Herald St </string>
+	<string>Lenox St </string>
+	<string>Massachusetts Avenue </string>
+	<string>Melnea Cass Blvd </string>
+	<string>Newton St </string>
+	<string>Northern Avenue &amp; Harbor Street</string>
+	<string>Northern Avenue &amp; Tide Street</string>
+	<string>Silver Line Way </string>
+	<string>South Station</string>
+	<string>Terminal A</string>
+	<string>Terminal B Stop 1</string>
+	<string>Terminal B Stop 2</string>
+	<string>Terminal E</string>
+	<string>Terminals C</string>
+	<string>Union Park St </string>
+	<string>Worcester Square </string>
+	<string>World Trade Center </string>
+</array>
+</plist>

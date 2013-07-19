@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Allston Street</string>
+	<string>Arlington</string>
+	<string>Babcock Street</string>
+	<string>Back of the Hill</string>
+	<string>Beaconsfield</string>
+	<string>Blandford Street</string>
+	<string>Boston College</string>
+	<string>Boston University Central</string>
+	<string>Boston University East</string>
+	<string>Boston University West</string>
+	<string>Boylston Street</string>
+	<string>Brandon Hall</string>
+	<string>Brigham Circle</string>
+	<string>Brookline Hills</string>
+	<string>Brookline Village</string>
+	<string>Chestnut Hill Avenue</string>
+	<string>Chestnut Hill Station D Riverside Line</string>
+	<string>Chiswick Road</string>
+	<string>Cleveland Circle</string>
+	<string>Coolidge Corner</string>
+	<string>Copley</string>
+	<string>Dean Road</string>
+	<string>Eliot</string>
+	<string>Englewood Avenue</string>
+	<string>Fairbanks</string>
+	<string>Fenway</string>
+	<string>Fenwood Road</string>
+	<string>Government Center</string>
+	<string>Griggs Street/Long Avenue</string>
+	<string>Harvard Avenue</string>
+	<string>Hawes Street</string>
+	<string>Heath Street</string>
+	<string>Hynes Convention Center</string>
+	<string>Kenmore</string>
+	<string>Kent Street</string>
+	<string>Lechmere</string>
+	<string>Longwood</string>
+	<string>Longwood Medical Area</string>
+	<string>Mission Park</string>
+	<string>Museum of Fine Arts</string>
+	<string>Newton Centre</string>
+	<string>North Station</string>
+	<string>Northeastern University</string>
+	<string>Packards Corner</string>
+	<string>Park Street</string>
+	<string>Pleasant Street</string>
+	<string>Prudential</string>
+	<string>Reservoir</string>
+	<string>Riverside</string>
+	<string>Riverway</string>
+	<string>Science Park</string>
+	<string>South Street</string>
+	<string>St. Marys Street</string>
+	<string>St. Paul Street</string>
+	<string>Summit Avenue</string>
+	<string>Sutherland Street</string>
+	<string>Symphony</string>
+	<string>Tappan Street</string>
+	<string>Waban</string>
+	<string>Warren Street</string>
+	<string>Washington Square</string>
+	<string>Washington Street</string>
+	<string>Woodland</string>
+</array>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Oak Grove</string>
+	<string>Malden Center</string>
+	<string>Wellington</string>
+	<string>Sullivan Square</string>
+	<string>Community College</string>
+	<string>North Station</string>
+	<string>Haymarket</string>
+	<string>State Street</string>
+	<string>Downtown Crossing</string>
+	<string>Chinatown</string>
+	<string>Tufts Medical</string>
+	<string>Back Bay</string>
+	<string>Mass Ave</string>
+	<string>Ruggles</string>
+	<string>Roxbury Crossing</string>
+	<string>Jackson Square</string>
+	<string>Stony Brook</string>
+	<string>Green Street</string>
+	<string>Forest Hills</string>
+</array>
+</plist>

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  Where's My T?
+//  Where's My T
 //
 //  Created by George Wu on 11/30/12.
-//  Copyright (c) 2012 George Luke. All rights reserved.
+//  Copyright (c) 2012 George Wu. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -12,6 +12,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [GMSServices provideAPIKey:@"YOUR_API_KEY"];
     // Override point for customization after application launch.
     return YES;
 }
